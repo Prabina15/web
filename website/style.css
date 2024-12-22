@@ -1,0 +1,57 @@
+/* styles.css */
+
+body {
+    
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: lightskyblue;
+}
+body {
+    background-image: url('images/backfroung.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the image fixed during scrolling */
+}
+#home{
+    height: 700px;
+    background-image: url(images/backgriund1.jpg) ;
+    background-size: cover;
+    
+}
+#home p{
+    color: azure; 
+}
+h1, h2 {
+    color: #333;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 0;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.text-warning i {
+    color: #ffcc00;
+}
