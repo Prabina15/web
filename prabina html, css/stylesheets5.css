@@ -1,0 +1,75 @@
+/* Styling for overall container */
+body {
+    font-family: Arial, sans-serif;
+    /* margin: 0;
+    padding: 20px; */
+}
+
+.container {
+    background-color:rgb(239, 239, 238);
+    border: 1px solid black;
+    margin: 0px;
+    width: 50%;
+}
+
+h2 {
+    color: black;
+    
+}
+
+h1::before {
+    content: "H";
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: red;
+    font-size: 24px;
+
+}
+
+h1 {
+    
+    display: inline;
+    color: blue;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    color: grey;
+    
+}
+
+
+.bye{
+    color: red;
+    font-style: italic;
+}
+
+/* h3::before {
+    content: "...";
+    color: red;
+}
+
+h3 {
+    color: red;
+    font-size: 20px;
+} */
+
+/* Input placeholder styling */
+input::placeholder {
+    color: red;
+    font-style: italic;
+}
+
+/* Highlight text styling */
+.highlight {
+    color: lightgreen;
+    font-size: 22px;
+}
+
+/* ::selection pseudo-element */
+::selection {
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,77 @@
+.container {
+    width: 150px;
+    height: 100px;
+    border: 2px solid lightblue;
+    padding: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: lightblue;
+}
+
+/* Inner boxes */
+.inner-box {
+    width: 300px; /* Wider than the container */
+    height: 150px; /* Taller than the container */
+    background-color: lightcoral;
+}
+
+/* Specific overflow settings */
+.overflow-visible {
+    overflow: visible;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-scroll {
+    overflow: scroll;
+}
+
+
+/* Float and Clear examples */
+.clear-right-container {
+    width: 400px;
+    background-color: lightblue;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.clear-right {
+    clear: right; /* Clears the float on the right */
+}
+
+.float-right {
+    width: 100px;
+    height: 100px;
+    background-color: lightyellow;
+    float: right; /* Floats to the right */
+}
+
+.clear-both-container {
+    width: 400px;
+    background-color: lightblue;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.clear-both {
+    clear: both; /* Clears both left and right floats */
+    background-color: lightcoral;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.float-left {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    float: left; /* Floats to the left */
+}
+
+.float-right {
+    width: 100px;
+    height: 100px;
+    background-color: lightyellow;
+    float: right; /* Floats to the right */
+}

@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 1000px;
+}
+
+.login-form {
+    border: 1px solid black;
+     width: 400px;
+    padding: 20px;
+    }
+.signup-form {
+    border: 1px solid black;
+    /* margin right:10px; */
+    width: 400px;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    color:blue ;
+}
+
+h2 {
+    color: #1c1e21;
+    font-size: 24px;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.separator hr {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.separator span {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #777;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.login-btn {
+    background-color: #1877f2;
+    margin-bottom: 10px;
+}
+
+.create-btn {
+    background-color: #42b72a;
+}
+
+.signup-btn {
+    background-color: #42b72a;
+}
+
+a {
+    display: block;
+    text-align: center;
+    color: #1877f2;
+    margin-top: 10px;
+    text-decoration: none;
+}
+p{
+    color: gray
+}
+
+.gender, .birthday {
+    display: flex;
+    justify-content: space-between;
+}
+
+select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+input[type="radio"] {
+    margin: 0 5px;
+}

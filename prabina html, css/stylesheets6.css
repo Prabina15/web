@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+ul {
+    list-style: circle;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+a.link {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Pseudo-class for hover effect */
+a.link:hover {
+    color: rgb(102, 93, 93);
+    text-decoration: underline;
+}
+
+/* Pseudo-classes for input focus and active states */
+input[type="text"]:focus, input[type="email"]:focus {
+    border: 2px solid green;
+}
+
+input[type="submit"]:active {
+    background-color: lightgray;
+}

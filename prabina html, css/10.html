@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow, float and clear examples</title>
+    <link rel="stylesheet" href="stylesheets10.css">
+</head>
+<body>
+    <h2>Overflow: visible</h2>
+    <div class="container overflow-visible">
+        <div class="inner-box">
+            This content overflows the container.
+        </div>
+    </div> <br>
+
+    <h2>Overflow: hidden</h2>
+    <div class="container overflow-hidden">
+        <div class="inner-box">
+            This content is hidden outside the container.
+        </div>
+    </div>
+
+    <h2>Overflow: scroll</h2>
+    <div class="container overflow-scroll">
+        <div class="inner-box">
+            This content is scrollable within the container.
+        </div>
+    </div>
+
+
+  <h2> Clear:right</h2>
+  <div class="clear-right-container ">
+  <div class="float-right">Floated right</div>
+  <div class="clear-right">This content is cleared on the right</div>
+  </div>
+  <h2>Clear: both</h2>
+  <div class="clear-both-container">
+      <div class="float-left">Floated left</div>
+      <div class="float-right">Floated right</div>
+      <div class="clear-both">This content is cleared on both sides.</div>
+  </div>
+</body>
+</html>

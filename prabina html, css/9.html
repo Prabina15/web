@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing and Decoration Break Example</title>
+    <link rel="stylesheet" href="stylesheets9.css">
+</head>
+<body>
+
+    <h2>box-sizing: content-box</h2>
+    <div class="content-box">
+       <h3> (width and height only apply to the content of the element)</h3>
+        <p>This div has a width of 400px, but the full width is 400px + 20px (left and right border) + 40px (left and right padding) = 460px.</p>
+    </div>
+
+    <h2>box-sizing: border-box</h2>
+    <div class="border-box">
+       <h3> (width and height apply to all parts of the element: content, padding, and borders)</h3>
+        <p>Here, the full width of the box is 400px, including content, padding, and borders.</p>
+    </div>
+
+    <h2>box-decoration-break: slice | clone</h2>
+    <div class="slice-break">
+        <h4>This is an example of</h4> <span class="slice">box <br>decoration <br>break <br> slice</span>
+    </div>
+
+    <div class="clone-break">
+        This is an example of <span class="clone">box <br>decoration <br>break <br>clone</span> 
+    </div>
+
+</body>
+</html>
